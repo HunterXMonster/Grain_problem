@@ -1,0 +1,6 @@
+def grain(num):
+  n=1
+  if num==1:return n
+  else:
+    for i in range(num-1):n=n*2;i+=1
+    return n+grain(num-1)
